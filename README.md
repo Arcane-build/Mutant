@@ -2,13 +2,6 @@
 
 A modern, responsive landing page built with Next.js, TypeScript, and Tailwind CSS.
 
-## Features
-
-- **Next.js 15** - React framework with App Router
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first CSS framework
-- **Modular Components** - Clean, reusable component architecture
-
 ## Project Structure
 
 ```
@@ -42,22 +35,6 @@ npm run dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Logo Placeholders
-
-The design includes two logo placeholders:
-
-- **Navbar**: Top-left corner
-- **Footer**: Bottom-left section
-
-Replace these placeholders with your SVG logo by updating the respective components.
-
-## Color Scheme
-
-- Background: `#0a0a0a`
-- Card Background: `#0f0f0f`
-- Primary Button: `#2563eb` (Blue)
-- Text: White with various opacity levels
 
 ## Build for Production
 
