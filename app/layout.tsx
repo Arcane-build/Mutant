@@ -4,6 +4,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Mutant',
   description: 'Speak once. It executes.',
+  icons: {
+    icon: '/faviconLogo.svg',
+  },
 };
 
 export default function RootLayout({
