@@ -10,15 +10,15 @@ export default function EarlyAccess() {
             Get Early Access
           </h2>
 
-          {/* Subheading */}
-          <p className="text-[#555553] text-base sm:text-lg md:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto font-medium px-4">
-            Be among the first to build, talk to, and deploy voice-native AI agents.
-          </p>
-
           {/* CTA Button */}
-          <button className="px-6 sm:px-8 py-2.5 sm:py-3 bg-black text-white rounded-full font-medium hover:bg-black/90 transition-colors text-sm sm:text-base">
+          <a 
+            href="https://x.com/MutantdotApp/status/2001267169774936175"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-black text-white rounded-full font-medium hover:bg-black/90 transition-colors text-sm sm:text-base"
+          >
             Learn more →
-          </button>
+          </a>
         </div>
       </div>
     </section>

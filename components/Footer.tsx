@@ -18,29 +18,15 @@ export default function Footer() {
 
           {/* Footer Links */}
           <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 md:gap-20 lg:gap-28 w-full md:w-auto">
-            {/* Column 1 */}
+            {/* Twitter Link Only */}
             <div className="flex flex-col gap-3 mt-0 sm:mt-8">
-              <a href="#" className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors">
+              <a 
+                href="https://x.com/MutantdotApp/status/2001267169774936175" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors"
+              >
                 Twitter
-              </a>
-              <a href="#" className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors">
-                Discord
-              </a>
-              <a href="#" className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors">
-                Medium
-              </a>
-            </div>
-
-            {/* Column 2 */}
-            <div className="flex flex-col gap-3 mt-0 sm:mt-8">
-              <a href="#" className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors">
-                Blog
-              </a>
-              <a href="#" className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-white/80 hover:text-white text-sm sm:text-base font-normal transition-colors">
-                Terms & Condition
               </a>
             </div>
           </div>
