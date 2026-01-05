@@ -61,7 +61,7 @@ export default function WaitlistPopup({ isOpen, onClose }: WaitlistPopupProps) {
             Thank you for joining the Mutant waitlist!
           </h2>
           <p className="text-white/70 text-lg">
-            We'll be in touch soon.
+            We&apos;ll be in touch soon.
           </p>
         </div>
       </div>

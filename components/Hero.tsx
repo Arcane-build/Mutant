@@ -72,16 +72,17 @@ export default function Hero() {
     // Add event listeners
     document.addEventListener('touchstart', handleFirstTouch, { once: true });
     document.addEventListener('visibilitychange', handleVisibilityChange);
-    if (videoRef.current) {
-      videoRef.current.addEventListener('pause', handlePause);
+    const video = videoRef.current;
+    if (video) {
+      video.addEventListener('pause', handlePause);
     }
 
     // Cleanup
     return () => {
       document.removeEventListener('touchstart', handleFirstTouch);
       document.removeEventListener('visibilitychange', handleVisibilityChange);
-      if (videoRef.current) {
-        videoRef.current.removeEventListener('pause', handlePause);
+      if (video) {
+        video.removeEventListener('pause', handlePause);
       }
     };
   }, []);
